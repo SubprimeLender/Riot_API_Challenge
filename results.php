@@ -39,7 +39,7 @@
 		</div>
 		<hr>
 		<div class="container well text-center center col-4">
-			<a href="info.php">WHAT DO THESE EMOTES EVEN MEAN?!?!</a>
+			<a href="info.php"><h5>WHAT DO THESE EMOTES EVEN MEAN?!?!</h5></a>
 		</div>
 		<!-- Bottom team -->
 		<div id="bottom-team" class="container center">

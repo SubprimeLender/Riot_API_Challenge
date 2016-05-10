@@ -12,5 +12,6 @@ How it works:
 + [get_api_function.php](get_api_function.php) is a function that takes the API URL as a param and returns the decoded array
 + [get_mastery_function.php](get_master_function.php) is a function that takes a summoner ID as a param and returns array of entire list of all champions and respective masteries for that summoner ID 
 + [master_function.php](master_function.php) takes submitted summoner name, converts it to summoner ID, gets current game info, then stores summoner name, ID, champ, team, and champ masteries for all champs for all players in the game into $match_players storage array
-+ [results.php](results.php) is the output of everything
++ [results.php](results.php) is the output of all players names, loading splash art of players' respective champions, and Twitch.tv emote badges
 + Full development history in repo [https://github.com/SubprimeLender/riot_api](https://github.com/SubprimeLender/riot_api)
++ EDIT: changes to some documents made after 11:59pm were to remove our API keys

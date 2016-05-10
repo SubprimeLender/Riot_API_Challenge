@@ -51,8 +51,7 @@
 			foreach($match_teams[1] as $k) {
 				$current_champ_id = $k["Champion"];
 				$badges = badge_compiler($k["CMastery"][$current_champ_id]);
-				echo "<div class='champ-container col-lg-2 col-md-2' style='background-image:url(http://ddragon.leagueoflegends.com/cdn/img/champion/loading/" . $champion_reference[$k["Champion"]] . "_0.jpg)';>" . $badges . "</div>";	
-				};
+				echo "<div class='champ-container col-lg-2 col-md-2' style='background-image:url(http://ddragon.leagueoflegends.com/cdn/img/champion/loading/" . $champion_reference[$k["Champion"]] . "_0.jpg)';>" . $badges . "</div>";
 				};
 			?>
 		</div>

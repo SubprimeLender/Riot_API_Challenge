@@ -3,15 +3,16 @@ This is a simple query into champion masteries of every player in your live game
 <enter>
 <enter>
 Live demo: [champselect.info](http://champselect.info/kappa/kappa.html)
-How it works:
+
 
 + [kappa.html](kappa.html) is where the user will submit a summoner name
-+ [api_key.php](api_key.php) simply has keys as variables (insert 2)
-+ [region.php](region.php) simply has the region variable...currently only good for NA
-+ [champion_reference.php](champion_reference.php) simply contains an array of champID::champName
-+ [get_api_function.php](get_api_function.php) is a function that takes the API URL as a param and returns the decoded array
-+ [get_mastery_function.php](get_master_function.php) is a function that takes a summoner ID as a param and returns array of entire list of all champions and respective masteries for that summoner ID 
-+ [master_function.php](master_function.php) takes submitted summoner name, converts it to summoner ID, gets current game info, then stores summoner name, ID, champ, team, and champ masteries for all champs for all players in the game into $match_players storage array
++ [api_key.php](variables/api_key.php) simply has keys as variables (insert 2)
++ [region.php](variables/region.php) simply has the region variable...currently only good for NA
++ [champion_reference.php](variables/champion_reference.php) simply contains an array of champID::champName
++ [get_api_function.php](functions/get_api_function.php) is a function that takes the API URL as a param and returns the decoded array
++ [get_mastery_function.php](functions/get_master_function.php) is a function that takes a summoner ID as a param and returns array of entire list of all champions and respective masteries for that summoner ID 
++ [master_function.php](functions/master_function.php) takes submitted summoner name, converts it to summoner ID, gets current game info, then stores summoner name, ID, champ, team, and champ masteries for all champs for all players in the game into $match_players storage array
++ [badges_function.php](functions/badges_function.php) returns appropriate badges, drawn from assets folder /imgs/
 + [results.php](results.php) is the output of all players names, loading splash art of players' respective champions, and Twitch.tv emote badges
 + Full development history in repo [https://github.com/SubprimeLender/riot_api](https://github.com/SubprimeLender/riot_api)
 + EDIT: changes to some documents made after 11:59pm were to remove our API keys

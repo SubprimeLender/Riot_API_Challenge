@@ -4,8 +4,6 @@
 <head>
 <title>Champselect.info</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="CSS/custom_styles.css">
 </head>
 
@@ -40,6 +38,9 @@
 			?>
 		</div>
 		<hr>
+		<div class="container well text-center center col-4">
+			<a href="info.php">WHAT DO THESE EMOTES EVEN MEAN?!?!</a>
+		</div>
 		<!-- Bottom team -->
 		<div id="bottom-team" class="container center">
 			<?php
